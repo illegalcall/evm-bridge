@@ -41,5 +41,11 @@ contract DeployScript is Script {
         wdonut.transferOwnership(address(bscBridge));
 
         vm.stopBroadcast();        
+
+        // all address
+        console2.log("Donut token deployed to:", address(donut));
+        console2.log("WDonut token deployed to:", address(wdonut));
+        console2.log("ETH Bridge deployed to:", address(ethBridge));
+        console2.log("BSC Bridge deployed to:", address(bscBridge));
     }
 }
