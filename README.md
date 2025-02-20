@@ -1,11 +1,13 @@
-Below is an updated **README.md** that highlights the role of **WDonut** tokens in the bridging process, along with all the essential project details. Feel free to tailor any sections to match your specific needs.
+Below is a **README.md** with added emojis for a more vibrant, visually engaging experience. Feel free to adjust any section or emoji usage to match your style!  
 
 ---
 
-# EVM Bridge – Sepolia ETH <-> BSC Testnet
-A cross-chain bridge that facilitates transferring **Donut** tokens between the [Sepolia Ethereum test network](https://chainlist.org/chain/11155111) and the [BSC testnet](https://chainlist.org/chain/97). This project includes both a **backend** (smart contracts, relayer, scripts) and a **frontend** (dApp interface) to demonstrate bridging functionality. When bridging **Donut** tokens, you will receive **WDonut** (wrapped Donut) tokens on the destination chain.
+# EVM Bridge – 🍩 Sepolia ETH <-> BSC Testnet 🍩
+A cross-chain bridge that facilitates transferring **Donut** tokens between the [Sepolia Ethereum test network](https://chainlist.org/chain/11155111) and the [BSC testnet](https://chainlist.org/chain/97). This project includes both a **backend** (smart contracts, relayer, scripts) and a **frontend** (dApp interface) to demonstrate bridging functionality. When bridging **Donut** tokens, you will receive **WDonut** (wrapped Donut) tokens on the destination chain.  
 
-## Table of Contents
+---
+
+## 🔗 Table of Contents
 1. [Overview](#overview)  
 2. [Project Structure](#project-structure)  
 3. [Prerequisites](#prerequisites)  
@@ -16,23 +18,23 @@ A cross-chain bridge that facilitates transferring **Donut** tokens between the 
 8. [Testing](#testing)  
 9. [Folder Details](#folder-details)  
 10. [Contributing](#contributing)  
-11. [License](#license)
+11. [License](#license)  
 
 ---
 
-## Overview
-**EVM Bridge** is designed to allow users to lock **Donut** tokens on one chain and mint a wrapped version (**WDonut**) on the other. The project demonstrates the concept of cross-chain bridging using:
+## 🍬 Overview
+**EVM Bridge** is designed to allow users to **lock** **Donut** tokens on one chain and **mint** a wrapped version (**WDonut**) on the other. The project demonstrates the concept of cross-chain bridging using:  
 
 - **Donut** – The primary ERC-20 token.  
 - **WDonut** – A wrapped version of Donut that represents your locked tokens on the destination chain.  
 - **ETHBridge.sol** – Manages bridging logic on the Sepolia Ethereum network.  
 - **BSCBridge.sol** – Manages bridging logic on the Binance Smart Chain testnet.  
 
-The goal is to enable developers to test bridging solutions on test networks before deploying to mainnets.
+> **Goal**: Enable developers to test bridging solutions on test networks before deploying to mainnets.  
 
 ---
 
-## Project Structure
+## 🏗 Project Structure
 ```
 evm-bridge/
 │
@@ -72,15 +74,15 @@ evm-bridge/
 
 ---
 
-## Prerequisites
+## ✅ Prerequisites
 1. **Node.js** (v14+ recommended)  
 2. **npm** or **yarn**  
 3. **Hardhat** or **Foundry** (if you are using Hardhat/Foundry to compile and deploy the contracts)  
-4. **Metamask** or a similar Web3-enabled wallet (for testing the dApp in a browser)
+4. **MetaMask** or a similar Web3-enabled wallet (for testing the dApp in a browser)  
 
 ---
 
-## Installation
+## ⚙️ Installation
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/your-username/evm-bridge.git
@@ -101,7 +103,7 @@ evm-bridge/
 
 ---
 
-## Configuration
+## 🔧 Configuration
 1. **Environment Variables**  
    Create a `.env` file in the **evm-bridge-backend** folder (and/or **evm-bridge-frontend** if needed) with the following keys:
    ```
@@ -111,14 +113,14 @@ evm-bridge/
    ETHERSCAN_API_KEY=<Optional, for contract verification>
    BSCSCAN_API_KEY=<Optional, for contract verification>
    ```
-   Make sure not to commit your private keys to version control.
+   > **Note**: Make sure not to commit your private keys to version control.  
 
 2. **Contract Addresses**  
    After deploying, update the frontend `.env` or config files with the addresses of **ETHBridge**, **BSCBridge**, **Donut**, and **WDonut** contracts.
 
 ---
 
-## Deployment
+## 🚀 Deployment
 1. **Compile Contracts**  
    ```bash
    cd evm-bridge-backend
@@ -140,7 +142,7 @@ evm-bridge/
 
 ---
 
-## Usage
+## 🏃 Usage
 1. **Run the Backend (Relayer)**  
    - Make sure your `.env` file is properly configured.  
    - Start the relayer or any backend service that listens for events:
@@ -168,7 +170,7 @@ evm-bridge/
 
 ---
 
-## Testing
+## 🧪 Testing
 1. **Unit Tests**  
    ```bash
    cd evm-bridge-backend
@@ -181,7 +183,7 @@ evm-bridge/
 
 ---
 
-## Folder Details
+## 📂 Folder Details
 - **`evm-bridge-backend/.github`** – GitHub actions/workflows for CI/CD.  
 - **`evm-bridge-backend/broadcast`** – Deployment scripts or Hardhat artifact logs.  
 - **`evm-bridge-backend/cache`** – Compiler cache.  
@@ -196,7 +198,7 @@ evm-bridge/
 
 ---
 
-## Contributing
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!  
 Feel free to check the [issues page](../../issues) if you want to contribute.
 
@@ -208,9 +210,9 @@ Feel free to check the [issues page](../../issues) if you want to contribute.
 
 ---
 
-## License
+## ⚖️ License
 This project is open-sourced under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as you see fit.
 
 ---
 
-**Enjoy bridging Donut and WDonut across chains!** If you have any questions or feedback, feel free to reach out or open an issue.
+**Thank you for using our bridge!** 🍩✨ If you have any questions or feedback, feel free to reach out or open an issue. Happy bridging!  
