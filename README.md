@@ -1,6 +1,3 @@
-Below is a **README.md** with added emojis for a more vibrant, visually engaging experience. Feel free to adjust any section or emoji usage to match your style!  
-
----
 
 # EVM Bridge – 🍩 Sepolia ETH <-> BSC Testnet 🍩
 A cross-chain bridge that facilitates transferring **Donut** tokens between the [Sepolia Ethereum test network](https://chainlist.org/chain/11155111) and the [BSC testnet](https://chainlist.org/chain/97). This project includes both a **backend** (smart contracts, relayer, scripts) and a **frontend** (dApp interface) to demonstrate bridging functionality. When bridging **Donut** tokens, you will receive **WDonut** (wrapped Donut) tokens on the destination chain.  
